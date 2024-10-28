@@ -1,0 +1,88 @@
+.container{
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows:  100px 100px 100px 100px;
+  
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 510px;
+  width: 455px;
+ 
+}
+
+button{
+  background-color: #3b3b3b;
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+  text-align: center;
+  height: 70px;
+  width: 90px;
+  margin: 0pxpx;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 20px;
+ border: 0px;
+ font-size: 2rem;
+ color: white;
+ 
+}
+
+button:hover{
+  background-color: gainsboro;
+}
+
+#dizplay{
+  background-color: black;
+  
+  width: 449px;
+  height: 100px;
+  text-align: right;
+  color: white;
+  font-size: 4rem;
+  
+  
+  
+}
+
+.key--operator{
+  background-color: #565656;
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+  text-align: center;
+  height: 70px;
+  width: 90px;
+  margin: 0pxpx;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 70px;
+ border: 0px;
+}
+
+
+.parent{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  
+}
+
+.zero{
+  grid-column: span 2;
+  width: 180px;
+  height: 140;
+  border-radius: 35px;;
+}
+
+.orange{
+  background-color: #FFA500;
+}
+
+
+.ash{
+  background-color: #BFD4DF;
+}
+
